@@ -1,10 +1,8 @@
-# 01 HTML, CSS, and Git: Code Refactor
+# Challenge 01 HTML, CSS, and Git: Code Refactor
 
 ## Description
 
-This repository contains the refactored code for Horiseon Social Solution Services, Inc. 
-
-The goal is to improve the code without changing what it does, make it cleaner and adhere to accesibility standards.
+This repository contains the refactored code for Horiseon Social Solution Services, Inc.  The goal is to improve the code without changing its primary function, make it cleaner, and adhere to accessibility standards.
 
 ## User Story
 
@@ -37,3 +35,7 @@ The following image shows the web application's appearance and functionality:
 ![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/images/01-html-css-git-homework-demo.png)
 
 > **Note**: This layout is designed for desktop viewing, so you may notice that some of the elements don't look like the mock-up at a resolution smaller than 768px. Eventually you'll learn how to make elements responsive so that your web application is optimized for any screen size.
+
+## Deployed Application 
+
+[Horiseon] ()

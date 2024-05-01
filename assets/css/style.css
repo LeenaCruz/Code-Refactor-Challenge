@@ -1,4 +1,4 @@
-/*Universal selector used on webpage, box-sizing: border-box is used to include the padding and border in and element's total width and height, in this case we won't have any padding or margin, but the border will be calculated on size. This is useful is you used padding or margins on an element and you want all elements to be the same size  */ 
+/*Universal selector used on webpage, box-sizing: border-box is used to include the padding and border in and element's total width and height, in this case we won't have any padding or margin, but the border will be calculated on size. This is useful is you used padding or margins on an element and you want all elements to be the same size  */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -9,6 +9,7 @@
 body {
     background-color: #d9dcd6;
 }
+
 /* Added a fixed position on the header to make it easier to nav, fixed widht to 100% */
 .header {
     padding: 20px;
@@ -24,12 +25,15 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-/*This class changes the color of text to light gray, however the contrast between white and light gray is very subtle and it uses and span to make it work, if possible suggest using the white version of the logo if is in their guidelines, if not possible the span can be used 
+
+/*This class changes the color of text to light gray */
 .seo {
     color: #d9dcd6;
-} */
+} 
 
-/* Ths code style the main navigation on header, font family, font size, margins and float direction */
+
+
+/* This code sets the main navigation on header, font family, font size, margins and float direction */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -51,11 +55,7 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
-/* This is the hero image, the main big image on the landing page */
+/* This is the hero image, the main big image on the page */
 .hero {
     height: 800px;
     width: 100%;
@@ -72,6 +72,7 @@ p {
     margin-left: 20px;
 }
 
+/*This class formats the services section */
 .services {
     margin-bottom: 20px;
     padding: 50px;
@@ -81,10 +82,12 @@ p {
     color: #ffffff;
 }
 
+/* This sets the max height of the image to 200px */
 .services img {
     max-height: 200px;
 }
 
+/* This sets a bottom margin for the services header */
 .services h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -95,13 +98,19 @@ p {
     float: left;
     margin-right: 25px;
 }
+
 /* Class used to make images float right on the main services section, this takes them out of normal flow*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/* Background of benefits aside. */
+/* Sets the font size to specific value */
+p {
+    font-size: 16px;
+}
+
+/* Formats the benefits aside with margin, background color, font family, etc. The float property makes the aside float right, Clear: both; moves the element below any floated element */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -118,11 +127,13 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
+
 /* This class gives margin to the h3 benefits name and text color */
 .benefitsInfo h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+
 /* This class specifies style for the icon about benefits */
 .benefitsInfo img {
     display: block;
@@ -130,13 +141,14 @@ p {
     max-width: 150px;
 }
 
-/* Clear: both; moves the element below any floated element, like our images on the services section or the benefits in aside */
+/* Add a padding and clear property to the footer so it floats below the floated elements */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
 /* This class affects only the h2 of the footer not the copyright sentence */
 .footer h2 {
     font-size: 20px;
