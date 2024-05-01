@@ -85,12 +85,6 @@ a {
     max-height: 200px;
 }
 
-/* This sets a bottom margin for the services header */
-.services h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 /* Class used to make images float left on the main services section ,this takes them out of normal flow*/
 .float-left {
     float: left;
@@ -102,6 +96,13 @@ a {
     float: right;
     margin-left: 25px;
 }
+
+/* This sets a bottom margin for the services header */
+.services h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 
 /* Sets the font size to specific value */
 p {
