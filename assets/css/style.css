@@ -31,8 +31,6 @@ body {
     color: #d9dcd6;
 } 
 
-
-
 /* This code sets the main navigation on header, font family, font size, margins and float direction */
 .header nav {
     padding-top: 15px;
@@ -149,7 +147,7 @@ p {
     text-align: center;
 }
 
-/* This class affects only the h2 of the footer not the copyright sentence */
-.footer h2 {
-    font-size: 20px;
+/* This class affects only the h4 tag of the footer not the copyright sentence */
+.footer h4 {
+    font-size: 22px;
 }
