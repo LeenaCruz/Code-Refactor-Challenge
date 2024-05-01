@@ -10,14 +10,13 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Added a fixed position on the header to make it easier to nav, fixed widht to 100% */
+/* Header properties */
 .header {
     padding: 20px;
     width: 100%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-    position: fixed;
 }
 
 /* h1 tag is inside the header class in case if h1 is used on the webpage not to mess with the nav menu */
@@ -31,7 +30,7 @@ body {
     color: #d9dcd6;
 }
  
-/* This code sets the main navigation on header, font family, font size, margins and float direction */
+/* This code formats the main navigation on header, font family, font size, margins and float direction */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,7 +39,7 @@ body {
     font-size: 20px;
 }
 
-/* This changes the list elements inside the nav element to not have bullet points and display separated an inline*/
+/* Makes the list elements inside the nav element to not have bullet points and display separated an inline*/
 nav ul li {
     list-style-type: none;
     display: inline-block;
@@ -147,7 +146,7 @@ p {
     text-align: center;
 }
 
-/* This class affects only the h4 tag of the footer not the copyright sentence */
-.footer h4 {
-    font-size: 22px;
+/* This class affects only the h2 tag of the footer not the copyright sentence */
+.footer h2 {
+    font-size: 20px;
 }
