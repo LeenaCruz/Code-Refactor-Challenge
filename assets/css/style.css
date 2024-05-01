@@ -20,7 +20,7 @@ body {
     position: fixed;
 }
 
-/* h1 tag is inside the header class just in case if h1 is used on the webpage not to mess with the nav menu */
+/* h1 tag is inside the header class in case if h1 is used on the webpage not to mess with the nav menu */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -29,8 +29,8 @@ body {
 /*This class changes the color of text to light gray */
 .seo {
     color: #d9dcd6;
-} 
-
+}
+ 
 /* This code sets the main navigation on header, font family, font size, margins and float direction */
 .header nav {
     padding-top: 15px;
@@ -40,7 +40,7 @@ body {
     font-size: 20px;
 }
 
-/* This changes the list elements inside the nav element to not have bullet points and display inline*/
+/* This changes the list elements inside the nav element to not have bullet points and display separated an inline*/
 nav ul li {
     list-style-type: none;
     display: inline-block;
@@ -102,7 +102,6 @@ a {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
 
 /* Sets the font size to specific value */
 p {

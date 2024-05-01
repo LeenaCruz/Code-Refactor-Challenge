@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains the refactored code for Horiseon Social Solution Services, Inc.  The goal is to improve the code without changing its primary function, make it cleaner, and adhere to accessibility standards.
+This repository contains the refactored code for Horiseon Social Solution Services, Inc.  The goal is to improve the code without changing what it does, make it cleaner, and adhere to accessibility standards.
 
 ## User Story
 
