@@ -43,7 +43,8 @@ The following image shows the web application's appearance and functionality:
 ## Credits
 These sources help me research about the following topics. 
 
-Uses of span inside H1 tag:  
+
+**Uses of span inside H1 tag:**
 
 [https://contentmarketinginstitute.com/articles/how-tags-matter-seo/](https://contentmarketinginstitute.com/articles/how-tags-matter-seo/)
 
@@ -51,5 +52,8 @@ Uses of span inside H1 tag:
 
 Xpert Learning Assistsant
 
-How to put and alt inside a figure element (answer you use aria-label) by Xpert Learning Assistant
+**How to put and alt inside a figure element:** 
 
+Use aria-label by Xpert Learning Assistant
+
+> I used them on the index.html **header** and **figure** elements. 
