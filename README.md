@@ -38,4 +38,4 @@ The following image shows the web application's appearance and functionality:
 
 ## Deployed Application 
 
-[Horiseon] ()
+[Horiseon](https://leenacruz.github.io/Code-Refactor-Challenge/)
