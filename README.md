@@ -39,3 +39,17 @@ The following image shows the web application's appearance and functionality:
 ## Deployed Application 
 
 [Horiseon](https://leenacruz.github.io/Code-Refactor-Challenge/)
+
+## Credits
+These sources help me research about the following topics. 
+
+Uses of span inside H1 tag:  
+
+[https://contentmarketinginstitute.com/articles/how-tags-matter-seo/](https://contentmarketinginstitute.com/articles/how-tags-matter-seo/)
+
+[https://iloveseo.com/seo/google-explains-what-happens-if-you-include-span-or-class-attribute-in-your-h1-heading-tags/](https://iloveseo.com/seo/google-explains-what-happens-if-you-include-span-or-class-attribute-in-your-h1-heading-tags/)
+
+Xpert Learning Assistsant
+
+How to put and alt inside a figure element (answer you use aria-label) by Xpert Learning Assistant
+
